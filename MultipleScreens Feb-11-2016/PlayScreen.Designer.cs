@@ -37,7 +37,7 @@
             this.nameLabel.AutoSize = true;
             this.nameLabel.Font = new System.Drawing.Font("Myriad Pro Cond", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nameLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.nameLabel.Location = new System.Drawing.Point(189, 196);
+            this.nameLabel.Location = new System.Drawing.Point(192, 186);
             this.nameLabel.Name = "nameLabel";
             this.nameLabel.Size = new System.Drawing.Size(131, 34);
             this.nameLabel.TabIndex = 4;
@@ -48,12 +48,13 @@
             this.logoutButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.logoutButton.Font = new System.Drawing.Font("Myriad Pro Cond", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.logoutButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.logoutButton.Location = new System.Drawing.Point(204, 307);
+            this.logoutButton.Location = new System.Drawing.Point(198, 296);
             this.logoutButton.Name = "logoutButton";
             this.logoutButton.Size = new System.Drawing.Size(105, 48);
             this.logoutButton.TabIndex = 5;
             this.logoutButton.Text = "Logout";
             this.logoutButton.UseVisualStyleBackColor = true;
+            this.logoutButton.Click += new System.EventHandler(this.logoutButton_Click);
             // 
             // PlayScreen
             // 

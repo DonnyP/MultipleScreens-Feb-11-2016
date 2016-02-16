@@ -22,5 +22,10 @@ namespace MultipleScreens_Feb_11_2016
         {
 
         }
+
+        private void logoutButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

@@ -42,7 +42,7 @@
             this.submitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.submitButton.Font = new System.Drawing.Font("Myriad Pro Cond", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.submitButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.submitButton.Location = new System.Drawing.Point(308, 356);
+            this.submitButton.Location = new System.Drawing.Point(191, 320);
             this.submitButton.Name = "submitButton";
             this.submitButton.Size = new System.Drawing.Size(105, 48);
             this.submitButton.TabIndex = 0;
@@ -76,12 +76,13 @@
             // 
             this.responseLabel.AutoSize = true;
             this.responseLabel.Font = new System.Drawing.Font("Myriad Pro Cond", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.responseLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.responseLabel.Location = new System.Drawing.Point(44, 427);
+            this.responseLabel.ForeColor = System.Drawing.Color.White;
+            this.responseLabel.Location = new System.Drawing.Point(63, 410);
             this.responseLabel.Name = "responseLabel";
-            this.responseLabel.Size = new System.Drawing.Size(207, 34);
+            this.responseLabel.Size = new System.Drawing.Size(369, 34);
             this.responseLabel.TabIndex = 4;
-            this.responseLabel.Text = "Password Incorrect! :(";
+            this.responseLabel.Text = "Password and/or Username Incorrect! :(";
+            this.responseLabel.Visible = false;
             // 
             // usernameTBox
             // 
