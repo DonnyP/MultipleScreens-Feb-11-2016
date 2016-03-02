@@ -10,7 +10,6 @@ using System.Windows.Forms;
 
 namespace MultipleScreens_Feb_11_2016
 {
-    //
     public partial class MainScreen : UserControl
     {
         public MainScreen()
@@ -28,8 +27,8 @@ namespace MultipleScreens_Feb_11_2016
             string correctName = "Donny";
             string correctPassword = Convert.ToString("1234");
 
-            if (nameInput == correctName && passwordInput == correctPassword)  // if the password and username are correct
-            {
+            //if (nameInput == correctName && passwordInput == correctPassword)  // if the password and username are correct
+            //{
                 Form f = this.FindForm();
                 f.Controls.Remove(this);
 
@@ -37,14 +36,14 @@ namespace MultipleScreens_Feb_11_2016
                 f.Controls.Add(ps);
 
                 ps.Location = new Point((f.Width - ps.Width) / 2, (f.Height - ps.Height) / 2);
-            } 
+            //} 
 
-            else 
-            {
+            //else 
+            //{
                 responseLabel.Visible = true; //The " Password and/or Username incorrect :( "
                 usernameTBox.Clear();
                 passwordTBox.Clear();
-            }
+            //}
         }
      }
 }

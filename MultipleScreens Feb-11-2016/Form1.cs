@@ -14,6 +14,13 @@ namespace MultipleScreens_Feb_11_2016
     {
        public static string name = "Hello Donny!";
 
+       //Creating a new random number for the computer
+       public static Random randNum = new Random();
+       int rand = randNum.Next(0, 4);  // 1-4 because there will be 4 quadrants
+
+       //The randome color generator for the computer
+       public static List<int> colorGenerator = new List<int>();
+
         public Form1()
         {
             InitializeComponent();
